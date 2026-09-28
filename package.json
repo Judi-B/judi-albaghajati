@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "homepage": "https://judi-b.github.io/judi-albaghajati/",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "sass": "^1.99.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.4"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^4.3.3"
+  }
+}
