@@ -2,8 +2,7 @@
 
 
 html, body {
-  font-family: "Dongle", sans-serif;
-  color-scheme: light dark;
+  font-family: "space mono";
   margin: 0;
   padding: 0;
 }
@@ -13,34 +12,25 @@ html, body {
 
   --circle-size: 80%;
   --blending: hard-light;
-  color-scheme: light dark;
 
+  --color-bg1: rgb(108, 0, 162);
+  --color-bg2: rgb(0, 17, 82);
+  --color1: 255, 251, 191;
+  --color2: 250, 95, 241;
+  --color3: 181, 23, 142;
+  --color4: 67, 97, 238;
+  --color5: 76, 201, 240;
+  --color-interactive: 140, 100, 255;
 
+  --primary: rgb(255, 251, 191);
+  --primary-2:rgb(76, 201, 240);
+  --secondary:rgb(67, 97, 238);
+  --secondary-2:rgb(250, 95, 241);
+  --interactive: rgb(140, 100, 255);
 
-  --color-bg1: rgb(255, 251, 251);
-  --color-bg2: rgb(243, 251, 251);
-  --color1: 255, 207, 234;
-  --color2: 255, 122, 122;
-  --color3: 203, 255, 230;
-  --color4: 175, 233, 255;
-  --color5: 191, 185, 255;
-  --color-interactive: 254, 244, 150;
+  
 }
 
-
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-bg1: rgb(108, 0, 162);
-    --color-bg2: rgb(0, 17, 82);
-    --color1: 52, 160, 164;
-    --color2: 250, 95, 241;
-    --color3: 76, 201, 240;
-    --color4: 67, 97, 238;
-    --color5: 181, 23, 158;
-    --color-interactive: 140, 100, 255;
-  }
-}
 
 
 
@@ -97,50 +87,6 @@ html, body {
   .svg-filter {
     display: none;
   }
-
-
-.glass {
-  background: rgba(255, 255, 255, 0.14);
-  backdrop-filter: blur(19px);
-  -webkit-backdrop-filter: blur(19px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow:
-          0 8px 32px rgba(0, 0, 0, 0.1),
-          inset 0 1px 0 rgba(255, 255, 255, 0.5),
-          inset 0 -1px 0 rgba(255, 255, 255, 0.1),
-          inset 0 0 20px 10px rgba(255, 255, 255, 1);
-  overflow: hidden;
-}
-
-.glass::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: linear-gradient(
-          90deg,
-          transparent,
-          rgba(255, 255, 255, 0.8),
-          transparent
-  );
-}
-
-.glass::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1px;
-  height: 100%;
-  background: linear-gradient(
-          180deg,
-          rgba(255, 255, 255, 0.8),
-          transparent,
-          rgba(255, 255, 255, 0.3)
-  );
-}
 
 
   .gradients-container {
@@ -233,7 +179,7 @@ html, body {
     transform-origin: calc(50% - 800px) calc(50% + 200px);
     animation: moveInCircle 20s ease infinite;
 
-    opacity: 1;
+    opacity: 0.7;
   }
 }
 
