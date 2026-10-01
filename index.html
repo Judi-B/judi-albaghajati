@@ -5,13 +5,13 @@
     <title>Judi Albaghajati Portfolio</title>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
+    <link rel="icon" type="image/svg+xml" href="/judi-albaghajati/favicon.svg">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  <script type="module" crossorigin src="/judi-albaghajati/assets/index-IsCpJoV9.js"></script>
-  <link rel="stylesheet" crossorigin href="/judi-albaghajati/assets/index-BERJYpqy.css">
+  <script type="module" crossorigin src="/judi-albaghajati/assets/index-B5G9XNpN.js"></script>
+  <link rel="stylesheet" crossorigin href="/judi-albaghajati/assets/index-BVtICsY7.css">
 </head>
 <body>
 <!--    Background    -->
@@ -36,15 +36,24 @@
     </div>
     
 </div>
-<section class="wrapper">
+<section class="wrapper -z-10">
     <div id='stars' class="-z-10"></div>
     <div id='stars2' class="-z-10"></div>
     <div id='stars3' class="-z-10"></div>
 </section>
 <!--    Navbar    -->
-<div class="flex h-screen w-screen items-baseline p-4 ">
-    <nav class="z-50 backdrop-blur-3xl backdrop-saturate-[1.2] flex items-center h-16 border border-gray-500/10 bg-white/10 mx-auto relative
-        shadow-[0px_8px_32px_rgba(0,0,0,0.15),0px_1px_0px_rgba(255,255,255,0.08)_inset,0px_-1px_0px_rgba(255,255,255,0.04)_inset]
+<div class="absolute top-4 left-4 w-16 h-16 rounded-full glassmorphic flex items-center justify-center md:hidden">
+    <a href="#">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="4.706" cy="16" r="4.706" fill="#ffffff" />
+            <circle cx="16.001" cy="4.706" r="4.706" fill="#ffffff" />
+            <circle cx="16.001" cy="27.294" r="4.706" fill="#ffffff" />
+            <circle cx="27.294" cy="16" r="4.706" fill="#ffffff" />
+        </svg>
+    </a>
+</div>
+<div class="flex max-md:hidden h-screen w-screen items-baseline p-4 overflow-hidden flex-col">
+    <nav class="z-1000 glassmorphic flex items-center h-16 mx-auto relative
         max-md:w-full max-md:justify-between px-6 py-4 rounded-3xl text-white text-lg md:overflow-hidden">
         <a href="#">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,17 +72,17 @@
             <a href="#" class="relative overflow-hidden h-6 group">
                 <span class="block group-hover:-translate-y-full transition-transform duration-300">Projects</span>
                 <span
-                        class="block absolute top-full left-0 group-hover:translate-y-[-100%] transition-transform duration-300">Projects</span>
+                        class="block absolute top-full left-0 group-hover:-translate-y-full transition-transform duration-300">Projects</span>
             </a>
             <a href="#" class="relative overflow-hidden h-6 group">
                 <span class="block group-hover:-translate-y-full transition-transform duration-300">Experience</span>
                 <span
-                        class="block absolute top-full left-0 group-hover:translate-y-[-100%] transition-transform duration-300">Experience</span>
+                        class="block absolute top-full left-0 group-hover:-translate-y-full transition-transform duration-300">Experience</span>
             </a>
             <a href="#" class="relative overflow-hidden h-6 group">
                 <span class="block group-hover:-translate-y-full transition-transform duration-300">Skills</span>
                 <span
-                        class="block absolute top-full left-0 group-hover:translate-y-[-100%] transition-transform duration-300">Skills</span>
+                        class="block absolute top-full left-0 group-hover:-translate-y-full transition-transform duration-300">Skills</span>
             </a>
         </div>
 
@@ -83,49 +92,176 @@
                 Contact
             </button>
         </div>
-        <button id="menuToggle" class="md:hidden text-white">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                stroke-linecap="round" stroke-linejoin="round">
-                <path d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-        </button>
-        <div id="mobileMenu" class="absolute overflow-hidden hidden top-48 text-base left-0 w-full flex-col items-center gap-4">
-            <a class="hover:text-indigo-600" href="#">
-                Home
-            </a>
-            <a class="hover:text-indigo-600" href="#">
-                Projects
-            </a>
-            <a class="hover:text-indigo-600" href="#">
-                Experience
-            </a>
-            <a class="hover:text-indigo-600" href="#">
-                Skills
-            </a>
-            <button
-                    class="bg-white hover:shadow-[0px_0px_30px_14px] shadow-[0px_0px_30px_7px] hover:shadow-white/50 shadow-white/50 text-black px-4 py-2 rounded-full text-sm font-bold hover:bg-slate-100 transition duration-300">
-                Contact
-            </button>
-        </div>
     </nav>
 </div>
-<div class="absolute top-0 left-0 flex w-screen  h-full text-white max-md:px-4 px-16 text-5xl md:text-9xl font-bold z-0 items-center justify-start">
+
+<!-- Hero Section -->
+<div class="absolute top-0 left-0 flex w-screen h-full text-white max-md:px-4 px-16 text-5xl md:text-9xl font-bold z-0 items-center justify-start">
     <h1>Judi <br>Albaghajati</h1>
 </div>
-<script>
-  const menuToggle = document.getElementById('menuToggle');
-  const mobileMenu = document.getElementById('mobileMenu');
 
-  menuToggle.addEventListener('click', () => {
-    if (mobileMenu.classList.contains('hidden')) {
-      mobileMenu.classList.remove('hidden');
-      mobileMenu.classList.add('flex');
-    } else {
-      mobileMenu.classList.add('hidden');
-      mobileMenu.classList.remove('flex');
-    }
-  });
-</script>
+
+<!-- Footer -->
+<footer>
+    <!-- mobile footer -->
+    <div class="bottom-0 md:hidden absolute py-4 glassmorphic flex flex-col items-center justify-center w-full text-white text-sm gap-2">
+        <div class="md:hidden flex items-center justify-center flex-row gap-8">
+            <a href="mailto:judyalbaghajati1234@gmail.com" class="text-white/80 hover:text-white">
+                <svg class="stroke-current glow-target" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <!-- Define the glow filter -->
+                        <filter id="neon-glow" x="-50%" y="-50%" width="200%" height="200%">
+                        <feGaussianBlur stdDeviation="6" result="blur" />
+                        <feMerge>
+                            <feMergeNode in="blur" />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                        </filter>
+                    </defs>
+                    <g id="style=linear">
+                        <g id="email">
+                            <path id="vector" d="M17 20.5H7C4 20.5 2 19 2 15.5V8.5C2 5 4 3.5 7 3.5H17C20 3.5 22 5 22 8.5V15.5C22 19 20 20.5 17 20.5Z" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path id="vector_2" d="M18.7698 7.7688L13.2228 12.0551C12.5025 12.6116 11.4973 12.6116 10.777 12.0551L5.22998 7.7688" stroke-width="1.5" stroke-linecap="round"/>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/judi-albaghajati" class="text-white/80 hover:text-white">
+                <svg class="stroke-current glow-target" width="24" height="24" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" fill="none">
+                    <defs>
+                        <!-- Define the glow filter -->
+                        <filter id="neon-glow" x="-50%" y="-50%" width="200%" height="200%">
+                        <feGaussianBlur stdDeviation="6" result="blur" />
+                        <feMerge>
+                            <feMergeNode in="blur" />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                        </filter>
+                    </defs>
+                    <rect width="132" height="132" x="30" y="30" stroke-width="12" rx="16"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="12" d="M66 86v44"/>
+                    <circle class="fill-current" cx="66" cy="64" r="8"/>
+                    <path stroke-linecap="round" stroke-width="12" d="M126 130v-26c0-9.941-8.059-18-18-18v0c-9.941 0-18 8.059-18 18v26"/>
+                </svg>
+            </a>
+            <a href="https://github.com/judi-b" class="text-white/80 hover:text-white">
+                <svg class="fill-current glow-target transition-all duration-300" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <!-- Define the glow filter -->
+                        <filter id="neon-glow" x="-50%" y="-50%" width="200%" height="200%">
+                        <feGaussianBlur stdDeviation="6" result="blur" />
+                        <feMerge>
+                            <feMergeNode in="blur" />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                        </filter>
+                    </defs>
+                    <path d="M4.0744 2.9938C4.13263 1.96371 4.37869 1.51577 5.08432 1.15606C5.84357 0.768899 7.04106 0.949072 8.45014 1.66261C9.05706 1.97009 9.11886 1.97635 10.1825 1.83998C11.5963 1.65865 13.4164 1.65929 14.7213 1.84164C15.7081 1.97954 15.7729 1.97265 16.3813 1.66453C18.3814 0.651679 19.9605 0.71795 20.5323 1.8387C20.8177 2.39812 20.8707 3.84971 20.6494 5.04695C20.5267 5.71069 20.5397 5.79356 20.8353 6.22912C22.915 9.29385 21.4165 14.2616 17.8528 16.1155C17.5801 16.2574 17.3503 16.3452 17.163 16.4167C16.5879 16.6363 16.4133 16.703 16.6247 17.7138C16.7265 18.2 16.8491 19.4088 16.8973 20.4002C16.9844 22.1922 16.9831 22.2047 16.6688 22.5703C16.241 23.0676 15.6244 23.076 15.2066 22.5902C14.9341 22.2734 14.9075 22.1238 14.9075 20.9015C14.9075 19.0952 14.7095 17.8946 14.2417 16.8658C13.6854 15.6415 14.0978 15.185 15.37 14.9114C17.1383 14.531 18.5194 13.4397 19.2892 11.8146C20.0211 10.2698 20.1314 8.13501 18.8082 6.83668C18.4319 6.3895 18.4057 5.98446 18.6744 4.76309C18.7748 4.3066 18.859 3.71768 18.8615 3.45425C18.8653 3.03823 18.8274 2.97541 18.5719 2.97541C18.4102 2.97541 17.7924 3.21062 17.1992 3.49805L16.2524 3.95695C16.1663 3.99866 16.07 4.0147 15.975 4.0038C13.5675 3.72746 11.2799 3.72319 8.86062 4.00488C8.76526 4.01598 8.66853 3.99994 8.58215 3.95802L7.63585 3.49882C7.04259 3.21087 6.42482 2.97541 6.26317 2.97541C5.88941 2.97541 5.88379 3.25135 6.22447 4.89078C6.43258 5.89203 6.57262 6.11513 5.97101 6.91572C5.06925 8.11576 4.844 9.60592 5.32757 11.1716C5.93704 13.1446 7.4295 14.4775 9.52773 14.9222C10.7926 15.1903 11.1232 15.5401 10.6402 16.9905C10.26 18.1319 10.0196 18.4261 9.46707 18.4261C8.72365 18.4261 8.25796 17.7821 8.51424 17.1082C8.62712 16.8112 8.59354 16.7795 7.89711 16.5255C5.77117 15.7504 4.14514 14.0131 3.40172 11.7223C2.82711 9.95184 3.07994 7.64739 4.00175 6.25453C4.31561 5.78028 4.32047 5.74006 4.174 4.83217C4.09113 4.31822 4.04631 3.49103 4.0744 2.9938Z"/>
+                    <path d="M3.33203 15.9454C3.02568 15.4859 2.40481 15.3617 1.94528 15.6681C1.48576 15.9744 1.36158 16.5953 1.66793 17.0548C1.8941 17.3941 2.16467 17.6728 2.39444 17.9025C2.4368 17.9449 2.47796 17.9858 2.51815 18.0257C2.71062 18.2169 2.88056 18.3857 3.05124 18.5861C3.42875 19.0292 3.80536 19.626 4.0194 20.6962C4.11474 21.1729 4.45739 21.4297 4.64725 21.5419C4.85315 21.6635 5.07812 21.7352 5.26325 21.7819C5.64196 21.8774 6.10169 21.927 6.53799 21.9559C7.01695 21.9877 7.53592 21.998 7.99999 22.0008C8.00033 22.5527 8.44791 23.0001 8.99998 23.0001C9.55227 23.0001 9.99998 22.5524 9.99998 22.0001V21.0001C9.99998 20.4478 9.55227 20.0001 8.99998 20.0001C8.90571 20.0001 8.80372 20.0004 8.69569 20.0008C8.10883 20.0026 7.34388 20.0049 6.67018 19.9603C6.34531 19.9388 6.07825 19.9083 5.88241 19.871C5.58083 18.6871 5.09362 17.8994 4.57373 17.2891C4.34391 17.0194 4.10593 16.7834 3.91236 16.5914C3.87612 16.5555 3.84144 16.5211 3.80865 16.4883C3.5853 16.265 3.4392 16.1062 3.33203 15.9454Z"/>
+                </svg>
+            </a>
+        </div>
+        <div class="md:hidden flex justify-center flex-row items-center gap-6 text-xs">
+            <a href="#" class="relative overflow-hidden group">
+                <span class="block group-hover:-translate-y-full transition-transform duration-300">Home</span>
+                <span
+                        class="block absolute top-full left-0 group-hover:-translate-y-full transition-transform duration-300">Home</span>
+            </a>
+            <a href="#" class="relative overflow-hidden group">
+                <span class="block group-hover:-translate-y-full transition-transform duration-300">Projects</span>
+                <span
+                        class="block absolute top-full left-0 group-hover:-translate-y-full transition-transform duration-300">Projects</span>
+            </a>
+            <a href="#" class="relative overflow-hidden group">
+                <span class="block group-hover:-translate-y-full transition-transform duration-300">Experience</span>
+                <span
+                        class="block absolute top-full left-0 group-hover:-translate-y-full transition-transform duration-300">Experience</span>
+            </a>
+            <a href="#" class="relative overflow-hidden group">
+                <span class="block group-hover:-translate-y-full transition-transform duration-300">Skills</span>
+                <span
+                        class="block absolute top-full left-0 group-hover:-translate-y-full transition-transform duration-300">Skills</span>
+            </a>
+        </div>
+        <div class="bg-white/50 h-px rounded-lg w-70 mx-auto md:hidden"></div>
+        <div class="text-white/90 flex items-center justify-center gap-2 max-md:text-xs">
+            <p>© 2026 Judi Albaghajati | All rights reserved.</p>
+        </div>
+    </div>
+    
+    <!-- Desktop footer -->
+    <div class="bottom-0 max-md:hidden absolute py-4 flex flex-col items-center justify-center w-full text-white text-sm gap-2">
+        <div class="max-md:hidden flex items-center justify-start w-full ml-16 flex-row gap-8">
+            <div class="w-16 h-16 rounded-full glassmorphic flex items-center justify-center max-md:hidden">
+                <a href="mailto:judyalbaghajati1234@gmail.com" class="text-white/80 hover:text-white">
+                    <svg class="stroke-current glow-target" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <!-- Define the glow filter -->
+                            <filter id="neon-glow" x="-50%" y="-50%" width="200%" height="200%">
+                            <feGaussianBlur stdDeviation="6" result="blur" />
+                            <feMerge>
+                                <feMergeNode in="blur" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                            </filter>
+                        </defs>
+                        <g id="style=linear">
+                            <g id="email">
+                                <path id="vector" d="M17 20.5H7C4 20.5 2 19 2 15.5V8.5C2 5 4 3.5 7 3.5H17C20 3.5 22 5 22 8.5V15.5C22 19 20 20.5 17 20.5Z" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path id="vector_2" d="M18.7698 7.7688L13.2228 12.0551C12.5025 12.6116 11.4973 12.6116 10.777 12.0551L5.22998 7.7688" stroke-width="1.5" stroke-linecap="round"/>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="w-16 h-16 rounded-full glassmorphic flex items-center justify-center max-md:hidden">
+                <a href="https://www.linkedin.com/in/judi-albaghajati" class="text-white/80 hover:text-white">
+                    <svg class="stroke-current glow-target" width="24" height="24" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" fill="none">
+                        <defs>
+                            <!-- Define the glow filter -->
+                            <filter id="neon-glow" x="-50%" y="-50%" width="200%" height="200%">
+                            <feGaussianBlur stdDeviation="6" result="blur" />
+                            <feMerge>
+                                <feMergeNode in="blur" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                            </filter>
+                        </defs>
+                        <rect width="132" height="132" x="30" y="30" stroke-width="12" rx="16"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="12" d="M66 86v44"/>
+                        <circle class="fill-current" cx="66" cy="64" r="8"/>
+                        <path stroke-linecap="round" stroke-width="12" d="M126 130v-26c0-9.941-8.059-18-18-18v0c-9.941 0-18 8.059-18 18v26"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="w-16 h-16 rounded-full glassmorphic flex items-center justify-center max-md:hidden">
+                <a href="https://github.com/judi-b" class="text-white/80 hover:text-white">
+                    <svg class="fill-current glow-target transition-all duration-300" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <!-- Define the glow filter -->
+                            <filter id="neon-glow" x="-50%" y="-50%" width="200%" height="200%">
+                            <feGaussianBlur stdDeviation="6" result="blur" />
+                            <feMerge>
+                                <feMergeNode in="blur" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                            </filter>
+                        </defs>
+                        <path d="M4.0744 2.9938C4.13263 1.96371 4.37869 1.51577 5.08432 1.15606C5.84357 0.768899 7.04106 0.949072 8.45014 1.66261C9.05706 1.97009 9.11886 1.97635 10.1825 1.83998C11.5963 1.65865 13.4164 1.65929 14.7213 1.84164C15.7081 1.97954 15.7729 1.97265 16.3813 1.66453C18.3814 0.651679 19.9605 0.71795 20.5323 1.8387C20.8177 2.39812 20.8707 3.84971 20.6494 5.04695C20.5267 5.71069 20.5397 5.79356 20.8353 6.22912C22.915 9.29385 21.4165 14.2616 17.8528 16.1155C17.5801 16.2574 17.3503 16.3452 17.163 16.4167C16.5879 16.6363 16.4133 16.703 16.6247 17.7138C16.7265 18.2 16.8491 19.4088 16.8973 20.4002C16.9844 22.1922 16.9831 22.2047 16.6688 22.5703C16.241 23.0676 15.6244 23.076 15.2066 22.5902C14.9341 22.2734 14.9075 22.1238 14.9075 20.9015C14.9075 19.0952 14.7095 17.8946 14.2417 16.8658C13.6854 15.6415 14.0978 15.185 15.37 14.9114C17.1383 14.531 18.5194 13.4397 19.2892 11.8146C20.0211 10.2698 20.1314 8.13501 18.8082 6.83668C18.4319 6.3895 18.4057 5.98446 18.6744 4.76309C18.7748 4.3066 18.859 3.71768 18.8615 3.45425C18.8653 3.03823 18.8274 2.97541 18.5719 2.97541C18.4102 2.97541 17.7924 3.21062 17.1992 3.49805L16.2524 3.95695C16.1663 3.99866 16.07 4.0147 15.975 4.0038C13.5675 3.72746 11.2799 3.72319 8.86062 4.00488C8.76526 4.01598 8.66853 3.99994 8.58215 3.95802L7.63585 3.49882C7.04259 3.21087 6.42482 2.97541 6.26317 2.97541C5.88941 2.97541 5.88379 3.25135 6.22447 4.89078C6.43258 5.89203 6.57262 6.11513 5.97101 6.91572C5.06925 8.11576 4.844 9.60592 5.32757 11.1716C5.93704 13.1446 7.4295 14.4775 9.52773 14.9222C10.7926 15.1903 11.1232 15.5401 10.6402 16.9905C10.26 18.1319 10.0196 18.4261 9.46707 18.4261C8.72365 18.4261 8.25796 17.7821 8.51424 17.1082C8.62712 16.8112 8.59354 16.7795 7.89711 16.5255C5.77117 15.7504 4.14514 14.0131 3.40172 11.7223C2.82711 9.95184 3.07994 7.64739 4.00175 6.25453C4.31561 5.78028 4.32047 5.74006 4.174 4.83217C4.09113 4.31822 4.04631 3.49103 4.0744 2.9938Z"/>
+                        <path d="M3.33203 15.9454C3.02568 15.4859 2.40481 15.3617 1.94528 15.6681C1.48576 15.9744 1.36158 16.5953 1.66793 17.0548C1.8941 17.3941 2.16467 17.6728 2.39444 17.9025C2.4368 17.9449 2.47796 17.9858 2.51815 18.0257C2.71062 18.2169 2.88056 18.3857 3.05124 18.5861C3.42875 19.0292 3.80536 19.626 4.0194 20.6962C4.11474 21.1729 4.45739 21.4297 4.64725 21.5419C4.85315 21.6635 5.07812 21.7352 5.26325 21.7819C5.64196 21.8774 6.10169 21.927 6.53799 21.9559C7.01695 21.9877 7.53592 21.998 7.99999 22.0008C8.00033 22.5527 8.44791 23.0001 8.99998 23.0001C9.55227 23.0001 9.99998 22.5524 9.99998 22.0001V21.0001C9.99998 20.4478 9.55227 20.0001 8.99998 20.0001C8.90571 20.0001 8.80372 20.0004 8.69569 20.0008C8.10883 20.0026 7.34388 20.0049 6.67018 19.9603C6.34531 19.9388 6.07825 19.9083 5.88241 19.871C5.58083 18.6871 5.09362 17.8994 4.57373 17.2891C4.34391 17.0194 4.10593 16.7834 3.91236 16.5914C3.87612 16.5555 3.84144 16.5211 3.80865 16.4883C3.5853 16.265 3.4392 16.1062 3.33203 15.9454Z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        
+        <div class="max-md:hidden text-white/90 py-4 flex items-center w-full justify-start ml-16 gap-2 max-md:text-xs">
+            <p>© 2026 Judi Albaghajati | All rights reserved.</p>
+        </div>
+    </div>
+     
+</footer>
 </body>
 </html>
 
