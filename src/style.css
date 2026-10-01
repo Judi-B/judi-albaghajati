@@ -34,9 +34,8 @@ html, body {
 
 .glassmorphic {
   background: rgba(172, 172, 172, 0.2);
-  backdrop-filter: blur(64px);
   -webkit-backdrop-filter: blur(64px);
-
+  backdrop-filter: blur(64px);
   border: 1px solid rgba(106, 114, 130, 0.1);
   box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.15), 0px 1px 0px rgba(255, 255, 255, 0.08) inset, 0px -1px 0px rgba(255, 255, 255, 0.04) inset;
 }
